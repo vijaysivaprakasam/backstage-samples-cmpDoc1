@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "cmpDoc1"
+  description: "Documentation comppnent"
+  annotations:
+    github.com/project-slug: vijaysivaprakasam/backstage-samples-cmpDoc1
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/guests"

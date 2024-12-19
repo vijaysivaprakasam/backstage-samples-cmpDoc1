@@ -1,0 +1,8 @@
+site_name: "cmpDoc1"
+site_description: "Documentation comppnent"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
